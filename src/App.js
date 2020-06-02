@@ -6,6 +6,9 @@ export default class App extends React.Component {
 
   componentDidMount() {
     fetch('http://www.omdbapi.com/?apikey=5011d1c4&s=avengers') // Call the fetch function passing the url of the API as a parameter
+
+
+    
 .then((res) => {
 console.log(res);
 
